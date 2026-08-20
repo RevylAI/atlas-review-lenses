@@ -14,7 +14,7 @@ One agent told to "review this app" returns a shallow mix of whatever it
 noticed first. Four agents, each told to look for one thing and explicitly told
 what to ignore, return four different classes of bug.
 
-On the example app below, the four lenses found six issues and did not overlap
+On the example app below, the lenses found seven issues and did not overlap
 once. The ignore list in each lens is doing that work.
 
 | Lens | Owns | Sample finding |
@@ -23,6 +23,7 @@ once. The ignore list in each lens is doing that work.
 | [usability](lenses/usability.md) | whether the screen tells the truth about state | Home lit in the nav while two screens deep in Account |
 | [accessibility](lenses/accessibility.md) | measurable barriers, computed not estimated | price summary labels at 4.3:1 against a 4.5:1 AA floor |
 | [pricing clarity](lenses/pricing-clarity.md) | what the user pays and what they pay with | the selected card showing no last four and no expiry |
+| [affordance](lenses/affordance.md) | whether an element looks like what it does | a promo badge shaped exactly like the two buttons above it |
 
 ## Quickstart
 

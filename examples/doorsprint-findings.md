@@ -1,11 +1,11 @@
 # Example run: DoorSprint
 
-A real pass over a food delivery demo app with 34 screens in its Atlas. Four
-lenses, six findings, three root causes. Every finding below was pinned by the
+A real pass over a food delivery demo app with 34 screens in its Atlas. Five
+lenses, seven findings, four root causes. Every finding below was pinned by the
 CLI with `agent_kind=claude_code` and `origin_surface=revyl_cli`.
 
-The point of the example is not the bug count. It is that four narrow lenses
-returned six findings with zero overlap, which is what a single "review this
+The point of the example is not the bug count. It is that five narrow lenses
+returned seven findings with zero overlap, which is what a single "review this
 app" prompt does not do.
 
 ## Design
@@ -54,6 +54,19 @@ SprintCash shows a balance. The selected "Personal card" says only
 "Credit card", so the user cannot confirm what they are about to be charged on.
 
 ![card](img/payment-card-detail.png)
+
+## Affordance
+
+**A promo badge is shaped exactly like the two buttons above it.**
+"Free garlic knots over $30" is a rounded pill with a leading icon and a label.
+Directly above it sit "Store info" and "1,832+ ratings", which are the same
+shape with the same icon-plus-label pattern, and those are tappable. Nothing in
+the styling separates the static badge from the two controls.
+
+![affordance](img/affordance-collision.png)
+
+Cover the labels and sort the three by shape alone and you cannot tell which
+one does something. That is the test this lens runs.
 
 ## What the grounder refused
 

@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "name": "atlas-review-lenses",
+  "description": "Four review lenses (design, usability, accessibility, pricing clarity) for agents that leave grounded comments pinned to exact pixels on a mobile app's real screens.",
+  "organization": {
+    "name": "Revyl",
+    "url": "https://revyl.ai"
+  },
+  "references": [
+    "https://docs.revyl.ai",
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://developer.apple.com/design/human-interface-guidelines/accessibility"
+  ],
+  "keywords": [
+    "design-review",
+    "accessibility",
+    "wcag",
+    "contrast",
+    "usability",
+    "mobile",
+    "ios",
+    "android",
+    "ui-review",
+    "annotations",
+    "revyl",
+    "atlas",
+    "agent-skill"
+  ]
+}

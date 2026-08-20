@@ -1,0 +1,4 @@
+interface:
+  display_name: Atlas review lenses
+  short_description: Review an app's real screens through one lens and pin each finding to an exact pixel.
+  default_prompt: Use $atlas-review-lenses to review this app's screens and leave a comment for each finding.

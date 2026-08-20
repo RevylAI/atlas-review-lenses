@@ -1,0 +1,13 @@
+{
+  "name": "atlas-review-lenses",
+  "owner": { "name": "Revyl" },
+  "plugins": [
+    {
+      "name": "atlas-review-lenses",
+      "source": "../",
+      "category": "design",
+      "tags": ["design-review", "accessibility", "usability", "mobile", "ui"],
+      "strict": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "atlas-review-lenses",
+  "title": "Atlas review lenses",
+  "description": "Run a design, usability, accessibility, or pricing-clarity review over an app's real screens and pin each finding to the exact pixel.",
+  "author": "Revyl",
+  "version": "0.1.0",
+  "category": "design",
+  "icon": "🔍",
+  "install": { "plugin": "atlas-review-lenses@atlas-review-lenses" },
+  "triggers": [
+    "review the design of this app",
+    "audit these screens for accessibility",
+    "check the contrast on this screen",
+    "do a design review",
+    "find UI bugs in my app",
+    "leave feedback on these app screenshots"
+  ]
+}
